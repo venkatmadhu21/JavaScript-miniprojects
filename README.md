@@ -22,5 +22,7 @@ Throughout these mini projects, I covered key JavaScript concepts such as:
   
   GitHub User Profile Info - Fetches and displays user profile data using GitHub API.   
   
-  Simon Game - A memory-based game where the user replicates a sequence of colors/sounds.   
+  Simon Game - A memory-based game where the user replicates a sequence of colors/sounds.     
+
+  QR Code Generator - Generates a scannable QR code based on the user’s input text or URL using a public QR code API.
   
