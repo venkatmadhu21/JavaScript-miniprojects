@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<!-- Tells the browser that this is an HTML5 document -->
+
+<html lang="en">
+<!-- Sets the language of the document to English -->
+
+<head>
+    <!-- Contains meta-information about the document -->
+
+    <meta charset="UTF-8">
+    <!-- Defines the character encoding as UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the page responsive on different screen sizes -->
+
+    <title>Rock-paper-Scissors</title>
+    <!-- Sets the title of the web page that appears on the browser tab -->
+
+    <link rel="stylesheet" href="game.css">
+    <!-- Links the external CSS file to style the page -->
+</head>
+<!-- End of head section -->
+
+<body>
+    <!-- Contains the main content of the webpage -->
+
+    <h1>Rock Paper Scissors Game</h1>
+    <!-- Main heading of the page -->
+
+    <p>Choose your move:</p>
+    <!-- Instructional paragraph for the user -->
+
+    <div class="buttons">
+        <!-- Container for the game buttons -->
+
+        <button id="rock">&#x1F44A;</button>
+        <!-- Rock button with fist emoji -->
+
+        <button id="paper">&#x1F590;</button>
+        <!-- Paper button with raised hand emoji -->
+
+        <button id="scissors">&#x270C;</button>
+        <!-- Scissors button with V sign emoji -->
+
+    </div>
+    <!-- End of button container -->
+
+    <p id="result"></p>
+    <!-- Displays the result (win/lose/draw) -->
+
+    <p id="scores">
+        <!-- Displays user and computer scores -->
+
+        Your score: <span id="user-score">0</span>
+        <!-- Span element to update and show user's score -->
+
+        Computer score: <span id="computer-score">0</span>
+        <!-- Span element to update and show computer's score -->
+
+    </p>
+    <!-- End of scores section -->
+
+    <script src="game.js"></script>
+    <!-- Links the external JavaScript file for game functionality -->
+
+</body>
+<!-- End of body section -->
+
+</html>
+<!-- End of HTML document -->

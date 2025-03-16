@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!-- Defines the document type as HTML5 -->
+<html lang="en"> <!-- Sets the language of the document to English (good for SEO and accessibility) -->
+
+<head> <!-- Head section containing metadata and links -->
+
+  <meta charset="UTF-8"> <!-- Specifies the character encoding (UTF-8 supports most characters) -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- Makes the website responsive on all devices (mobile-friendly) -->
+
+  <title>Simon Says Game</title> <!-- Title of the web page shown on the browser tab -->
+
+  <link rel="stylesheet" href="simon.css"> 
+  <!-- Linking an external CSS file for styling -->
+
+</head> <!-- Closing tag of the head section -->
+
+<body> <!-- Start of the body section (visible content on the web page) -->
+
+  <h1 id="level-title">Press Any Key to Start</h1> 
+  <!-- Heading with id 'level-title' to show game status or level -->
+
+  <div class="container"> <!-- A container div that wraps all game buttons -->
+
+    <div class="btn red" id="red"></div> 
+    <!-- A red button: 'btn' class for styling as a button, 'red' for color, and id 'red' for reference -->
+
+    <div class="btn green" id="green"></div> 
+    <!-- A green button with similar structure -->
+
+    <div class="btn yellow" id="yellow"></div> 
+    <!-- A yellow button -->
+
+    <div class="btn blue" id="blue"></div> 
+    <!-- A blue button -->
+
+  </div> <!-- Closing the container div -->
+
+  <script src="simon.js"></script> 
+  <!-- Linking an external JavaScript file to control the game logic -->
+
+</body> <!-- Closing the body section -->
+
+</html> <!-- Closing the HTML document -->
