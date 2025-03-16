@@ -1,4 +1,4 @@
-#JavaScript Mini Projects
+# JavaScript Mini Projects
 
 Welcome to my collection of fun and beginner-friendly JavaScript projects!  
 These projects helped me strengthen my core JavaScript concepts and improve my coding skills through hands-on practice.
